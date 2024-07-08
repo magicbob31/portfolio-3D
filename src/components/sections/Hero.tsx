@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { styles } from "../../constants/styles";
-import { ComputersCanvas } from "../canvas";
-import { config } from "../../constants/config";
+import { styles } from '../../constants/styles';
+import { ComputersCanvas } from '../canvas';
+import { config } from '../../constants/config';
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>
+            Bonjour, je suis <span className="text-[#915EFF]">{config.hero.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
@@ -38,7 +38,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="bg-secondary mb-1 h-3 w-3 rounded-full"
             />

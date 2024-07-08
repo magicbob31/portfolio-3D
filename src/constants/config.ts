@@ -40,55 +40,57 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: 'Guibe Arnaud — 3D Portfolio',
+    fullName: 'Arnaud Guibe',
+    email: 'guibe310@gmail.com',
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: 'Arnaud Guibe',
+    p: [
+      'Je développe des visuels 3D, des interfaces utilisateurs',
+      'des applications web et web mobiles.',
+    ],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: 'Contactez-moi',
+    h2: 'Contact.',
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: 'ton nom',
+        placeholder: 'Quel est ton nom?',
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'ton email', placeholder: 'Quel est ton email?' },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'ton message',
+        placeholder: 'Que veut tu dire?',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: 'Introduction',
+      h2: 'Résumé.',
+      content: `Je suis un développeur de logiciels qualifié avec une expérience en
+      JavaScript, et une expertise dans des frameworks comme React, Node.js, et
+      Three.js. J'apprent vite et collabore étroitement avec les clients pour
+      créer des solutions efficaces, évolutives et conviviales qui résolvent
+      problèmes réels. Travaillons ensemble pour donner vie à vos idées!!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: 'Mon parcour',
+      h2: 'Experience.',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'Vos commentaires',
+      h2: 'Témoignages.',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: 'Mon travail',
+      h2: 'Projets.',
+      content: `Les projets suivants mettent en valeur mes compétences et mon expérience à travers
+    des exemples concrets de mon travail. Chaque projet est brièvement décrit avec un
+    lien vers des dépôts de code. Il reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies,
+    et gérer efficacement les projets.`,
     },
   },
 };
