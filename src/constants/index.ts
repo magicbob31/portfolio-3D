@@ -229,7 +229,7 @@ const projects: TProject[] = [
         color: 'green-text-gradient',
       },
       {
-        name: 'CSs',
+        name: 'CSS',
         color: 'pink-text-gradient',
       },
     ],
