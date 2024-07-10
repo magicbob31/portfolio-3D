@@ -8,7 +8,7 @@ import type {
 } from '../types';
 
 import {
-  mobile,
+  // mobile,
   backend,
   creator,
   web,
@@ -57,10 +57,7 @@ const services: TService[] = [
     title: 'Web Developer',
     icon: web,
   },
-  {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
+
   {
     title: 'Backend Developer',
     icon: backend,
