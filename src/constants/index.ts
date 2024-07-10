@@ -169,7 +169,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+      'Je pensais qu’il était impossible de faire un site aussi beau que notre produit, mais Arnaud m’a prouvé le contraire.',
     name: 'Sara Lee',
     designation: 'CFO',
     company: 'Acme Co',
@@ -177,15 +177,14 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      'J’ai jamais rencontré un développeur web qui se soucie vraiment du succès de ses clients comme Arnaud.',
     name: 'Chris Brown',
     designation: 'COO',
     company: 'DEF Corp',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial: 'Arnaud a optimisé notre site Web. Nous ne les remercierons jamais assez!',
     name: 'Lisa Wang',
     designation: 'CTO',
     company: '456 Enterprises',
