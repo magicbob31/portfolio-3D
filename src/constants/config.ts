@@ -40,16 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'Guibe Arnaud — 3D Portfolio',
+    title: 'Guibe Arnaud — Portfolio',
     fullName: 'Arnaud Guibe',
     email: 'guibe310@gmail.com',
   },
   hero: {
     name: 'Arnaud Guibe',
-    p: [
-      'Je développe des visuels 3D, des interfaces utilisateurs',
-      'des applications web et web mobiles.',
-    ],
+    p: ['Je développe des interfaces utilisateurs', 'des applications web et web mobiles.'],
   },
   contact: {
     p: 'Contactez-moi',
