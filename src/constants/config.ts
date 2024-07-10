@@ -71,8 +71,8 @@ export const config: TConfig = {
       p: 'Introduction',
       h2: 'Résumé.',
       content: `Je suis un développeur de logiciels qualifié avec une expérience en
-      JavaScript, et une expertise dans des frameworks comme React, Node.js, et
-      Three.js. J'apprent vite et collabore étroitement avec les clients pour
+      JavaScript, et une expertise dans des frameworks comme React et Node.js.
+      J'apprent vite et collabore étroitement avec les clients pour
       créer des solutions efficaces, évolutives et conviviales qui résolvent
       problèmes réels. Travaillons ensemble pour donner vie à vos idées!!`,
     },
