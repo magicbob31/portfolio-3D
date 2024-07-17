@@ -29,7 +29,7 @@ import WildCodeSchool from './company/WildCodeSchool.png';
 
 import moovieslib from './moovieslib.png';
 import portfolio from './portfolio.png';
-import tripguide from './tripguide.png';
+import TodoList from './image.png';
 
 export {
   WildCodeSchool,
@@ -60,5 +60,5 @@ export {
   tesla,
   moovieslib,
   portfolio,
-  tripguide,
+  TodoList,
 };

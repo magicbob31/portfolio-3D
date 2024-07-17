@@ -25,6 +25,7 @@ import {
   WildCodeSchool,
   moovieslib,
   portfolio,
+  TodoList,
   // redux,
   // mongodb,
   // docker,
@@ -34,7 +35,6 @@ import {
   // shopify,
   // carrent,
   // jobit,
-  // tripguide,
 } from '../assets';
 
 export const navLinks: TNavLink[] = [
@@ -232,27 +232,27 @@ const projects: TProject[] = [
     image: portfolio,
     sourceCodeLink: 'https://github.com/magicbob31/portfolio',
   },
-  // {
-  //   name: 'Trip Guide',
-  //   description:
-  //     'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   sourceCodeLink: 'https://github.com/',
-  // },
+  {
+    name: 'TODO LISTE',
+    description:
+      'Egalement appelée liste de tâches, est un outil simple et efficace pour gérer les tâches d’un projet. Elle peut contenir des tâches indépendantes ou des actions à accomplir.',
+    tags: [
+      {
+        name: 'JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'REACT',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: TodoList,
+    sourceCodeLink: 'https://github.com/magicbob31/TodoListe',
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
